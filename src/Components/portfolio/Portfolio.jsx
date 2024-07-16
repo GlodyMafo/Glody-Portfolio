@@ -37,9 +37,9 @@ const projects = [
     githubUrl: ""
   },
   {
-    title: "Portfolio Site",
+    title: "GaRi Exposition",
     category: "Web Application",
-    imageUrl: "",
+    imageUrl: "/CarExpo.png",
     demoUrl: "",
     githubUrl: ""
   },
