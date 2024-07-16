@@ -1,8 +1,10 @@
-import React from "react";
-import "./Home.css";
-import { ReactTyped as Typed } from "react-typed";
-import SocialMediaLinks from "./SocialMediaLinks";
-import SidebarNavButtons from "../nav/SidebarNavButtons";
+import React from 'react';
+import './Home.css';
+import { ReactTyped as Typed } from 'react-typed';
+import SocialMediaLinks from './SocialMediaLinks';
+import SidebarNavButtons from '../nav/SidebarNavButtons';
+const PDF = process.env.PUBLIC_URL + 'public/CV AGAPY MAFO.pdf';
+
 
 const Home = () => {
   return (
@@ -28,8 +30,8 @@ const Home = () => {
               <button className="btn hire-me">Hire Me</button>
             </a>
 
-            <a href="https://www.canva.com/design/DAGLB_3zWKc/HdM3XAT0FW-LV6GNYX7PFw/edit" target="blank">
-              <button className="btn download-cv">Download CV</button>
+            <a href={PDF} download>
+            <button className="btn download-cv">Download CV</button>
             </a>
           </div>
         </div>

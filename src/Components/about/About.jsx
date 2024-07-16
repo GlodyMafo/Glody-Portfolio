@@ -1,5 +1,7 @@
 // src/components/About.js
-import "./About.css";
+import './About.css';
+const PDF = process.env.PUBLIC_URL + 'public/CV AGAPY MAFO.pdf';
+
 
 const About = () => {
   return (
@@ -48,7 +50,11 @@ const About = () => {
                 </p>
               </div>
             </div>
+            <a href={PDF} download>
+
             <button className="btn download-cv">Download CV</button>
+            </a>
+
           </div>
         </div>
       </div>
