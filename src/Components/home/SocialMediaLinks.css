@@ -1,6 +1,6 @@
 .social-media-links {
     position: fixed;
-    left: 60px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
     display: grid;
