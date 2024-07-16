@@ -3,6 +3,8 @@ import './Home.css';
 import { ReactTyped as Typed } from 'react-typed';
 import SocialMediaLinks from './SocialMediaLinks';
 import SidebarNavButtons from '../nav/SidebarNavButtons';
+const PDF = process.env.PUBLIC_URL + 'public/CV AGAPY MAFO.pdf';
+
 
 const Home = () => {
   return (
@@ -21,7 +23,9 @@ const Home = () => {
             .</span></p>
           <div className="buttons">
             <button className="btn hire-me">Hire Me</button>
+            <a href={PDF} download>
             <button className="btn download-cv">Download CV</button>
+            </a>
           </div>
         </div>
         <SocialMediaLinks />
