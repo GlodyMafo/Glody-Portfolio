@@ -11,7 +11,7 @@ h2 {
 }
 
 .myline {
-    width: 210px;
+    width: 390px;
     height: 2px;
     background-color: var(--main-color);
     position: relative;

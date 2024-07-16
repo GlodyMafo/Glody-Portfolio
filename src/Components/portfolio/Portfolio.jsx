@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Cmb menuiserie",
     category: "Web Application",
-    imageUrl: "/cmb.jpg",
+    imageUrl: "/cmbsite.png",
     demoUrl: "https://cmb-menuiserie.com/",
     githubUrl: ""
   },
@@ -30,10 +30,10 @@ const projects = [
  
   
   {
-    title: "E-commerce Platform",
+    title: "Contact Book",
     category: "Web Application",
-    imageUrl: "",
-    demoUrl: "",
+    imageUrl: "/contactBook.png",
+    demoUrl: "https://glodymafo.github.io/Projet_Carnet_de_Contacts/",
     githubUrl: ""
   },
   {

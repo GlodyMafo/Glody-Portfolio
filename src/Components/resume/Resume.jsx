@@ -4,28 +4,28 @@ import './Resume.css';
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    date: "2017 - 2019",
+    title: "Full Stack Web Developer",
+    date: "2023 - present",
     type: "Freelance",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "As a full-stack web developer proficient in JS, React, and Node.js, I excel in crafting scalable and responsive web applications. With expertise in front-end development using React for dynamic user interfaces and backend integration with Node.js for efficient server-side operations, I deliver cohesive and innovative solutions tailored to client specifications and user expectations.",
   },
   {
     title: "Web Designer",
-    date: "2015 - 2017",
+    date: "2022 - present",
     type: "Freelance",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "As a web designer, I specialize in creating visually appealing and functional websites that effectively communicate my clients' brands or messages, utilizing skills in UI/UX design, responsive design principles, and a keen understanding of current web technologies.",
   },
   {
     title: "UI/UX Designer",
-    date: "2012 - 2015",
-    type: "Freelance",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    date: "2020 - present",
+    type: "Soko Yetu / Freelance",
+    description: "As a UX designer, I focus on enhancing user satisfaction by improving the usability, accessibility, and overall interaction experience of digital products through thoughtful interface design and user-centered methodologies.",
   },
   {
     title: "Graphic Designer",
-    date: "2012 - 2015",
+    date: "2018 - present",
     type: "Freelance",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "As a freelance graphic designer since 2018, I've crafted distinctive visual identities, designed various communication materials, and worked closely with clients to translate their visions into graphical reality.",
   },
 ];
 
@@ -33,7 +33,7 @@ const Resume = () => {
   return (
     <section id="resume">
       <div className="resume-container">
-        <h2>MY RESUME</h2>
+        <h2>MY FREELANCE RESUME</h2>
         <div className="myline"></div>
         <div className="resume-grid">
           <div className="vertical-line"></div>
