@@ -22,7 +22,7 @@ const experiences = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    title: "UI/UX Designer",
+    title: "Graphic Designer",
     date: "2012 - 2015",
     type: "Freelance",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

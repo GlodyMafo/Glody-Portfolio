@@ -2,12 +2,10 @@
 import './Services.css';
 
 const services = [
-  { title: "CREATIVE DESIGN", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.", icon: "🖌️" },
-  { title: "BRANDING", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.", icon: "🏴" },
-  { title: "USER INTERFACE", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.", icon: "💻" },
-  { title: "USER EXPERIENCE", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.", icon: "👥" },
-  { title: "CLEAN CODE", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.", icon: "💾" },
-  { title: "FAST SUPPORT", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.", icon: "⚡" },
+  { title: "WEB DEVELOPMENT", description: "Design and development of responsive and optimized websites, Integration of advanced features such as content management systems (CMS), e-commerce functionalities, complex forms, etc. ,Performance optimization and search engine optimization (SEO) to improve online visibility.", icon: "💻"  },
+  { title: "GRAPHIC DESIGN", description: "Creation of complete visual identities including logos, color palettes, and typography, Design of attractive and intuitive user interfaces (UI) for web and mobile applications, Development of marketing collateral such as brochures, flyers, visual presentations, etc.", icon: "🖌️"  },
+  { title: "CONSULTATION AND STRATEGY", description: "Strategic advice on design and development to help clients achieve their business goals, Audit and optimization of existing websites to enhance user experience and performance.", icon: "💾" },
+  { title: "MAINTENANCE AND SUPPORT", description: "Ongoing maintenance services to ensure security, updates, and troubleshooting, End-user training on managing and maintaining new web and graphic solutions", icon: "⚡" },
 ];
 
 const Services = () => {
