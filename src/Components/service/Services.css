@@ -87,11 +87,7 @@ p {
 }
 @media screen and (max-width: 700px) {
   .underline {
-    width: 210px;
-    height: 1px;
-    background-color: var(--main-color);
-    position: relative;
-    margin-left: 65px;
+display: none;
   }
   
   .underline::before {
@@ -105,6 +101,21 @@ p {
     left: 50%;
     transform: translateX(-50%);
     animation: pulse 1.5s infinite;
+  }
+
+  .services-container h2{
+    font-size: 25px;
+    color: var(--main-color);
+    margin-top: 0px;
+  }
+
+  .services-container{
+    background-color: #10293C;
+  }
+
+  #services{
+    height: 180vh;
+    background-color: #10293C;
   }
   
   }

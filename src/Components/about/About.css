@@ -212,6 +212,7 @@
     flex-direction: column;
     max-width: 600px;
     width: 100%;
+    padding-inline:25px ;
   }
   .about-text {
     flex: 1;
@@ -221,18 +222,19 @@
     border-radius: 10px;
     width: 350px;
     height: auto;
-    margin-left: 0px;
+    margin-inline: 20px;
 
     margin-right: 10px;
     z-index: 1;
   }
   .about-text h2 {
-    font-size: 30px;
+    font-size: 25px;
+    padding-left: 18px;
+    color: var(--main-color);
   }
   
   .line {
-    width: 140px;
-    height: 1px; 
+    display: none;
   }
   .line::before {
     width: 6px;
@@ -242,17 +244,21 @@
   }
 
   .about-text h1 {
-    font-size: 25px;
+    font-size: 20px;
+    padding-left: 18px;
   }
   
   .about-text h3 {
-    font-size: 20px;
+    font-size: 18px;
+    padding-inline: 18px;
+    
   }
   
   .about-text p {
     line-height: 1.5;
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 17px;
+    margin-top: 0px;
+    padding-inline: 18px;
   }
   
   .about-info {
