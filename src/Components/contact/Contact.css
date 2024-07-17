@@ -1,5 +1,6 @@
 .contact-section {
-  padding: 50px;
+  padding-inline: 100px;
+  padding-block: 50px;
   background-color: #10293C;
   color: #fff;
 }
@@ -8,7 +9,7 @@
   margin-bottom: 40px;
   color: #fff;
   position: relative; 
-  text-align: left; 
+  text-align: center; 
 }
 
 
@@ -16,6 +17,9 @@
 .contact-container {
   display: flex;
   justify-content: space-between;
+  width: 80%;
+  height: 30%;
+  padding-inline: 140px;
 }
 
 .contact-info, .contact-form {
@@ -23,11 +27,12 @@
   background-color: var(--background-color);
   border: 3px solid var(--border-color);
   border-radius: 8px;
+  height: 70vh;
 }
 
 .contact-info {
   width: 30%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   margin-right: 5%;

@@ -10,25 +10,6 @@ const projects = [
     demoUrl: "https://cmb-menuiserie.com/",
     githubUrl: ""
   },
- 
-  {
-    title: "Project Title",
-    category: "Branding",
-    imageUrl: "",
-  },
- 
-  {
-    title: "Clock",
-    category: "Graphic Design",
-    imageUrl: "",
-  },
-  {
-    title: "Coffee Cups",
-    category: "Graphic Design",
-    imageUrl: "",
-  },
- 
-  
   {
     title: "Contact Book",
     category: "Web Application",
@@ -43,6 +24,46 @@ const projects = [
     demoUrl: "",
     githubUrl: ""
   },
+ 
+  {
+    title: "KBO Prod Logo",
+    category: "Branding",
+    imageUrl: "/KboProd.png",
+  },
+ 
+  {
+    title: "CMB Logo",
+    category: "Branding",
+    imageUrl: "/cmbLogo.png",
+  },
+  {
+    title: "Collection dans l'ame Logo",
+    category: "Branding",
+    imageUrl: "/CollectionDansLaame.png",
+  },
+  {
+    title: "243 Direct News Logo",
+    category: "Branding",
+    imageUrl: "/243News.png",
+  },
+  {
+    title: "Congo Umoja Logo",
+    category: "Branding",
+    imageUrl: "/CongoUmoja.png",
+  },
+  {
+    title: "Salon de l'environnment Flyer",
+    category: "Graphic Design",
+    imageUrl: "/projet_salon-Récupéré_105930.jpg",
+  },
+  {
+    title: "LDS conference Katuba stake Flyer",
+    category: "Graphic Design",
+    imageUrl: "/JKL_085900.png",
+  },
+ 
+  
+
 ];
 
 const Portfolio = () => {
@@ -100,13 +121,11 @@ const Portfolio = () => {
                 <div className="portfolio-icons">
                   {project.category === 'Web Application' && (
                     <>
-                      <a href={project.demoUrl} target="_blank" rel="noopener noreferrer"><i className="fas fa-search"></i></a>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"><i className="fas fa-link"></i></a>
+                      <a href={project.demoUrl} target="_blank" rel="noopener noreferrer"><i className="fas fa-link"></i></a>
                     </>
                   )}
                   {project.category !== 'Web Application' && (
                     <>
-                      <a href="#!"><i className="fas fa-search"></i></a>
                       <a href="#!"><i className="fas fa-link"></i></a>
                     </>
                   )}

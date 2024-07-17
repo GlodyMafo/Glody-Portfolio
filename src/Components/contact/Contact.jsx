@@ -65,17 +65,14 @@ const Contact = () => {
           <div className="info-box">
             <h3>Email</h3>
             <p>glodymafokis@gmail.com </p>
-            <p>Support@example.com</p>
+            <p>glodymafok@gmail.com</p>
           </div>
           <div className="info-box">
             <h3>Phone</h3>
-            <p>+1 212 410-1845</p>
-            <p>+1 212 116-2145</p>
+            <p>+243 83 011 7735</p>
+            <p>+243 84 074 1984</p>
           </div>
-          <div className="info-box">
-            <h3>Website</h3>
-            <p>mywebsite</p>
-          </div>
+         
         </div>
         <div className="contact-form">
           <form onSubmit={handleSubmit}>

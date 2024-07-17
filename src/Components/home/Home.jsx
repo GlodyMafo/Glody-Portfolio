@@ -3,7 +3,7 @@ import './Home.css';
 import { ReactTyped as Typed } from 'react-typed';
 import SocialMediaLinks from './SocialMediaLinks';
 import SidebarNavButtons from '../nav/SidebarNavButtons';
-const PDF = process.env.PUBLIC_URL + 'public/CV AGAPY MAFO.pdf';
+
 
 
 const Home = () => {
@@ -14,10 +14,10 @@ const Home = () => {
         <div className="content">
           <h1>Glody Mafo</h1>
           <p>
-            I'm A{" "}
+            I'm 
             <span className="highlight">
               <Typed
-                strings={["Web Developer", "Graphic Designer", "Freelancer"]}
+                strings={[": Web Developer", ": Graphic Designer", ": Freelancer"]}
                 typeSpeed={100}
                 backSpeed={50}
                 loop
@@ -30,7 +30,7 @@ const Home = () => {
               <button className="btn hire-me">Hire Me</button>
             </a>
 
-            <a href={PDF} download>
+            <a href="https://drive.google.com/file/d/1PH0nVQq25KDb9lVphYev6YfscIxSDGE-/view?usp=sharing" target='_blank'>
             <button className="btn download-cv">Download CV</button>
             </a>
           </div>
