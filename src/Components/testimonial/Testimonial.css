@@ -8,8 +8,8 @@
   }
 
   .testimonial-title{
-text-align: center;
-/* padding-left: 445px; */
+
+padding-left: 516px;
   }
   
   /* .testimonial-title {
@@ -119,6 +119,7 @@ text-align: center;
     .testimonial-title{
       text-align: none;
       padding-right: 60px;
+      padding-left: 0px;
       color: var(--main-color);
       font-size: 25px;
         }
