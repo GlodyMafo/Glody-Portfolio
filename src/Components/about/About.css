@@ -180,7 +180,9 @@
     gap: 5px;
   }
   
-  
+  .line {
+    display: none;
+  }
   
   .download-cv {
     padding: 10px 20px;

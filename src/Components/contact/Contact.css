@@ -108,29 +108,29 @@
   color: white;
 }
 @media screen and (max-width: 1024px) {
-  .contact-info {
+  /* .contact-info {
     width: 30%;
     height: 52vh;
     display: flex;
     flex-direction: column;
     margin-right: 5%;
-  }
-}
-@media screen and (max-width: 700px) {
+  } */
   .contact-section {
     padding: 20px;
    
   }
   .contact-container {
-    display: grid;
-   grid-template-columns: 1fr;
+    display: flex;
+flex-wrap: wrap;
+margin-left: -50px;
   }
   .contact-section h2 {
     margin-bottom: 40px;
     color: white;
     position: relative; 
-    text-align: left; 
-    font-size: 25px;
+    padding-right: 50px; 
+    font-size: 30px;
+    
   }
   .contact-info, .contact-form {
     padding: 10px;
@@ -139,14 +139,70 @@
     border-radius: 8px;
   }
   .contact-info {
-    width: 93%;
-    height: 80vh;
+    width: 94%;
+    height: 37vh;
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
   }
   .contact-form {
-    width: 93%;
+    width: 90%;
+    height: 43vh;
+    margin-top: 30px;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: none; 
+    border-bottom: 2px solid var(--border-color); 
+    background-color: #304255;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+  }
+  .contact-form input{
+    height: 50px;
+    margin-top: 10px; 
+  }
+  .contact-info {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-section {
+    padding: 20px;
+   
+  }
+  .contact-container {
+    display: flex;
+flex-wrap: wrap;
+margin-left: -95px;
+  }
+  .contact-section h2 {
+    margin-bottom: 40px;
+    color: white;
+    position: relative; 
+    padding-right: 50px; 
+    font-size: 25px;
+    color: var(--main-color);
+  }
+  .contact-info, .contact-form {
+    padding: 10px;
+    background-color: var(--background-color);
+    border: 3px solid var(--border-color);
+    border-radius: 8px;
+  }
+  .contact-info {
+    width: 94%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 90%;
+    height: 60vh;
     margin-top: 30px;
   }
   .contact-form input, .contact-form textarea {

@@ -210,6 +210,10 @@ h3 {
     height: 30vh;
     display: block;
 }
+
+.portfolio-line{
+  display:none;
+}
   }
   @media screen and (max-width: 700px) {
     .portfolio-grid {
@@ -223,6 +227,7 @@ h3 {
 }
 .portfolio-container h2 {
   font-size: 25px;
+  color: var(--main-color);
   margin-bottom: 10px;
   position: relative;
   text-align: center;

@@ -114,6 +114,12 @@ p {
 .right {
     grid-column: 3 / 4;
 }
+
+@media screen and (max-width: 1024px) {
+  .myline{
+    display: none;
+  };
+  }
 @media screen and (max-width: 700px) {
    /* .myline{
     display: none;
