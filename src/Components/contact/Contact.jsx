@@ -54,7 +54,10 @@ const Contact = () => {
     <section id='contact'>
 
     <div className="contact-section">
-      <h2>CONTACT ME</h2>
+      <h2>Let's Connect</h2>
+      <div className='align'>
+        <div className="underline"></div>
+        </div>
       <div className="contact-container">
         <div className="contact-info">
           <div className="info-box">

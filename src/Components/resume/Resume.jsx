@@ -33,8 +33,10 @@ const Resume = () => {
   return (
     <section id="resume">
       <div className="resume-container">
-        <h2>MY FREELANCE RESUME</h2>
+        <h2>My Experience</h2>
+        <div className='align'>
         <div className="myline"></div>
+        </div>
         <div className="resume-grid">
           <div className="vertical-line"></div>
           {experiences.map((experience, index) => (

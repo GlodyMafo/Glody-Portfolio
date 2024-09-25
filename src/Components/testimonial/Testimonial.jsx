@@ -40,7 +40,10 @@ const Testimonial = () => {
         <section id='testimonial'>
         
         <div className="testimonial-section">
-            <h2 className="testimonial-title">TESTIMONIALS</h2>
+            <h2 className="testimonial-title">What They Say</h2>
+            <div className='align'>
+        <div className="underline"></div>
+        </div>
             <Slider {...settings} className="testimonial-slider">
                 {testimonials.map((testimonial, index) => (
                     <div key={index} className="testimonial-card">

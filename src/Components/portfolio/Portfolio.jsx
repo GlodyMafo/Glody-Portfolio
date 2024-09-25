@@ -98,8 +98,10 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <div className="portfolio-container">
-        <h2>MY PORTFOLIO</h2>
+        <h2>My Work</h2>
+        <div className='align'>
         <div className="portfolio-line"></div>
+        </div>
         <div className="portfolio-filters">
           {['All', 'Web Application', 'Graphic Design', 'Branding'].map((category, index) => (
             <button

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './SidebarNavButtons.css';
 
 const SidebarNavButtons = () => {
-  const [activeNav, setActiveNav] = useState('#'); // Définir 'home' comme actif par défaut
+  const [activeNav, setActiveNav] = useState('#');
 
   return (
     <div className="sidebar-nav-buttons">
@@ -60,3 +60,6 @@ const SidebarNavButtons = () => {
 };
 
 export default SidebarNavButtons;
+
+
+
